@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/colorBackground"
+    >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/albumRView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/refreshFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/refresh"
+        app:backgroundTint="@color/colorAccent"
+        app:fabSize="normal"
+        app:layout_anchor="@+id/albumRView"
+        app:layout_anchorGravity="right|bottom" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/circle"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/colorAlbumText"
+        android:progress="@android:integer/config_shortAnimTime"
+        app:layout_anchor="@+id/albumRView"
+        app:layout_anchorGravity="top|center" />
+
+</android.support.design.widget.CoordinatorLayout>

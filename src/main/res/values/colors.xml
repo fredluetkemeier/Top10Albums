@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4062b2</color>
+    <color name="colorPrimaryDark">#223663</color>
+    <color name="colorAccent">#e28724</color>
+    <color name="colorAlbumText">#FFFFFF</color>
+    <color name="colorArtistText">#cecece</color>
+    <color name="colorLightText">#606060</color>
+    <color name="colorLighterText">#666666</color>
+    <color name="colorBackground">#3a3a3a</color>
+    <color name="colorBackgroundDark">#232323</color>
+    <color name="colorTrueBlack">#000000</color>
+</resources>
